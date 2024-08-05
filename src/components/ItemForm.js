@@ -18,6 +18,8 @@ function handleNameChange(event) {
       name: name,
       category: category,
     });
+  setName("")
+  setCategory("Produce") 
   }  
 
   return (
